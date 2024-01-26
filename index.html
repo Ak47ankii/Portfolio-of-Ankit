@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
+    <title>Ankit-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: o;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(22, 22, 66);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.06rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+
+        
+
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 2.5rem;
+
+
+
+
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn {
+padding: 12 px;
+background: #1e2167;
+color: white;
+border: 2px solid white;
+border-radius: 6px;
+font-size: 20px;
+cursor: pointer;
+
+
+
+
+
+}
+
+        .rightSection img {
+            width: 80%;
+            border: 2px solid rgb(29, 202, 139);
+
+
+
+        }
+
+        .purple {
+            color: rgb(169, 105, 229);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(169, 105, 229);
+
+        }
+        .secondSection {
+            max-width: 80vw;
+            margin:auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 89vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+      
+        .secondSection .vertical {
+    height: 100px;
+    width: 1px;
+    background: white; 
+    margin: 0 110px;
+}
+.image-top{
+    width: 32px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+   
+
+}
+    .secondSection .vertical-title{
+        position: relative;
+        top: 68px;
+        width: 150px;
+        font-size: 14px;
+
+       
+    }
+    .secondSection .vertical-desc{
+        position: relative;
+        top: 69px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+
+    }
+    footer{
+        background-color: #0e0e1a;
+        
+    }
+    .footer{
+        display: flex;
+        padding:  123px 122px;
+        justify-content: space-evenly;
+
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .footer >div{
+        width:223px ;
+    }
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ankit's-portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li> <a href="/">Home</a></li>
+                <li> <a href="/">About</a></li>
+                <li> <a href="/">Services</a></li>
+                <li> <a href="/">Projects</a></li>
+                <li> <a href="/">Contact Me</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is<span class="purple"> Ankit</span>
+                <div>and I am a passonate</div>
+                <span id="element"></span>
+          
+                <div class="buttons">
+                    
+                        <button class="btn">Download Resume</button>
+                    
+                    <a href="https://github.com/Ak47ankii" target="_blank">
+                        <button class="btn">Visit GitHub</button>
+                    </a>
+                </div>
+                
+
+
+            </div>
+
+            <div class="rightSection">
+                <img src="an.jpg" alt="">
+
+
+            </div>
+
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"></span> What I have done so far</span>
+            <h1> Work Experience</h1>
+            <div class="box">
+          <div class="vertical">
+          <img class="image-top" src="py.jpeg" alt="Image Alt Text">
+          
+         
+          <div class="vertical-title">
+           Projects in python
+          </div>
+        <div class="vertical-desc">
+          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
+           
+
+          </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ex.jpeg" alt="Image Alt Text">
+            
+           
+            <div class="vertical-title">
+             Ms Excel
+            </div>
+          <div class="vertical-desc">
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
+             
+  
+            </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="c.jpeg" alt="Image Alt Text">
+                
+               
+                <div class="vertical-title">
+                 C & C++
+                </div>
+              <div class="vertical-desc">
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
+                 
+      
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ht.jpeg" alt="Image Alt Text">
+                    
+                   
+                    <div class="vertical-title">
+                     HTML Developer 
+                    </div>
+                  <div class="vertical-desc">
+                    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
+                     
+          
+                    </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="pw.jpeg" alt="Image Alt Text">
+                        
+                       
+                        <div class="vertical-title">
+            MS Powerpoint
+                        </div>
+                      <div class="vertical-desc">
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
+                         
+              
+                        
+                        </div>
+                        </div>
+                        <div class="vertical">
+                            <img class="image-top" src="ai.jpeg" alt="Image Alt Text">
+                            
+                           
+                            <div class="vertical-title">
+                             Prompt Writting
+                            </div>
+                          <div class="vertical-desc">
+                            
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
+                             
+                  
+                            </div>
+                            </div>
+          
+         
+          
+         
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+        <div class="footer">
+        <div class="first">
+        <h3>Ankit Developer Portfolio</h3>
+        </div>
+        <div class="second">
+            <ul> 
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-rights">
+         Copyright &#169;   www.ak47ankitsportfolio.com | All rights reserverd
+
+        </div>
+        <div class="fourth">
+        </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphics Designer','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+
+</body>
+
+</html>
