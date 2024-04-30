@@ -1,370 +1,1050 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
-    <title>Ankit-portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Development and Dairy Fishing</title>
     <style>
-        * {
-            margin: 0;
-            padding: o;
-        }
-
-        body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 85px;
-            background-color: rgb(22, 22, 66);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-
-        }
-
-        nav ul li a:hover {
-    color: rgb(153, 153, 226);
-    font-size: 1.06rem;
-}
-
-main hr {
-    border: 0;
-    background: #9c97f1;
-    height: 1.2px;
-    margin: 60px 84px;
-}
-
-
-        
-
-
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            margin: 130px 0;
-            align-items: center;
-        }
-
-        .firstSection>div {
-            width: 30%;
-        }
-
-        .leftSection {
-
-            font-size: 2.5rem;
-
-
-
-
-        }
-        .leftSection .buttons{
-            padding: 50px 0;
-        }
-        .leftSection .btn {
-padding: 12 px;
-background: #1e2167;
-color: white;
-border: 2px solid white;
-border-radius: 6px;
-font-size: 20px;
-cursor: pointer;
-
-
-
-
-
-}
-
-        .rightSection img {
-            width: 80%;
-            border: 2px solid rgb(29, 202, 139);
-
-
-
-        }
-
-        .purple {
-            color: rgb(169, 105, 229);
-        }
-        .text-gray{
-            color: gray;
-        }
-        #element{
-            color: rgb(169, 105, 229);
-
-        }
-        .secondSection {
-            max-width: 80vw;
-            margin:auto;
-            height: 80vh;
-        }
-        .secondSection h1{
-            font-size: 1.9rem;
-        }
-        .secondSection .box{
-            background: white;
-            width: 89vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
+       /* Your CSS code here */
       
-        .secondSection .vertical {
-    height: 100px;
-    width: 1px;
-    background: white; 
-    margin: 0 110px;
+/* styles.css */
+
+/* Header styles */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
 }
-.image-top{
-    width: 32px;
-    position: relative;
-    top: -32px;
-    left: -9px;
-   
 
+.header-banner img {
+  width: 100px;
+  height: auto;
 }
-    .secondSection .vertical-title{
-        position: relative;
-        top: 68px;
-        width: 150px;
-        font-size: 14px;
 
-       
-    }
-    .secondSection .vertical-desc{
-        position: relative;
-        top: 69px;
-        color: gray;
-        width: 150px;
-        font-size: 9px;
+.header-banner h1 {
+  margin-top: 10px;
+  font-size: 24px;
+}
 
-    }
-    footer{
-        background-color: #0e0e1a;
-        
-    }
-    .footer{
-        display: flex;
-        padding:  123px 122px;
-        justify-content: space-evenly;
+.search-bar {
+  margin-top: 20px;
+}
 
+.search-bar input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.search-bar select {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.quick-links {
+  margin-top: 20px;
+}
+
+.quick-links a {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.latest-updates {
+  margin-top: 20px;
+}
+
+.latest-updates h2 {
+  font-size: 20px;
+}
+
+.latest-updates ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.latest-updates li {
+  margin-bottom: 10px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+.login-button,
+.signup-button {
+    border: none;
+    cursor: pointer;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 2em;
+    transition: all ease-in-out 350ms;
+}
+
+.login-button:hover {
+    color: #131418;
+    background-color: #f2f5f7;
+    border: 1.5px solid #f2f5f7;
+}
+
+.signup-button {
+    color: #131418;
+    background-color: #61DAFB;
+    border: 1.5px solid #61DAFB;
+}
+
+.signup-button:hover {
+    color: #f2f5f7;
+    background-color: transparent;
+    border: 1.5px solid #f2f5f7;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 576px) {
+    nav {
+        height: auto;
+        margin-bottom: 100px; /* Adjusted margin for smaller screens */
     }
-    .footer ul{
-        list-style: none;
-    }
-    .footer >div{
-        width:223px ;
-    }
-    footer .footer-rights{
-        text-align: center;
-        color: gray;
-        padding: 12px 0;
-    }
+}
+
+/* Adjusted padding for body */
+body {
+    padding-bottom: 100px; /* Adjust the value as needed */
+}
+
+/* Footer and contact section styles continue below */
+
+
+
+
+        /* Footer styles */
+       /* Footer CSS Styles */
+.footer {
+  /* Remove fixed positioning */
+  /* position: fixed;
+  bottom: 0;
+  left: 0; */
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  /* Adjusted margin to push the footer downwards */
+  margin-top: -3rem;
+}
+
+
+.footer h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+/* Footer Container Styles */
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Column Styles */
+.footer .col-lg-3,
+.footer .col-md-6,
+.footer .col-sm-6 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+  .footer .col-lg-3,
+  .footer .col-md-6,
+  .footer .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer .col-lg-3,
+  .footer .col-md-6,
+  .footer .col-sm-6 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Modal css */
+/* Modal container */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% from the top and centered horizontally */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* 80% width of the parent container */
+    max-width: 300px; /* Maximum width of 300px */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+    border-radius: 5px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form styling */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"],
+button.signup-button,
+button.login-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover,
+button.signup-button:hover,
+button.login-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* contact css */
+/* CSS Styles */
+.contact {
+    min-height: auto;
+    padding-bottom: 4rem; /* Reduced padding */
+    background-color: #f0f8ff; /* Light blue background color */
+}
+
+.contact h2 {
+    margin-bottom: 2rem; /* Reduced margin */
+}
+
+.contact form {
+    max-width: 50rem; /* Reduced max-width */
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 2rem; /* Reduced margin */
+    padding: 2rem; /* Added padding */
+    border-radius: 1rem; /* Added border radius */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 40%; /* Reduced width */
+    padding: 1rem; /* Reduced padding */
+    font-size: 1.4rem; /* Reduced font size */
+    color: #333; /* Darker text color */
+    background: #fff; /* White background color */
+    border-radius: .6rem; /* Reduced border radius */
+    margin: .5rem 0; /* Reduced margin */
+    border: 1px solid #ccc; /* Added border */
+}
+
+.contact form .input-box input[type="submit"] {
+    width: auto;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Removed border */
+    padding: 1rem 2rem; /* Added padding */
+    font-size: 1.6rem; /* Increased font size */
+    border-radius: .6rem; /* Added border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form .input-box input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.contact form textarea {
+    width: 90%; /* Reduced width */
+    height: 8rem; /* Reduced height */
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 1rem; /* Reduced margin */
+    cursor: pointer;
+}
+
+/* Adjusted CSS for centering text */
+.contact .heading {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 4rem; /* Adjust as needed to separate from the contact form */
+}
+
+
+
+/*adjust postion of contact us */
+   .contact {
+            margin-top: 10rem; /* Adjust to move the form down */
+           
+        }
+
+        .footer {
+            margin-top: -1rem; /* Adjust to add space between the form and the footer */
+        }
+
+
+        /*home css*/
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100vw; /* Adjusted to fit full screen */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.photo-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); /* Adjusted to take up half of the screen */
+  grid-gap: 20px;
+  overflow: hidden;
+}
+
+.photo-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.photo-grid-item img {
+  width: 100%; /* Set the width to 100% */
+  height: 100%; /* Set the height to 100% */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+
+
+.photo-grid-item:hover img {
+  transform: scale(1.1);
+}
+
+.photo-grid-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.photo-grid-item:hover .overlay {
+  opacity: 1;
+}
+
+.photo-grid-item .overlay-content {
+  text-align: center;
+}
+
+
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Light mode styles */
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dark mode button */
+#darkModeToggle {
+    background-color: #5771db; /* Match navbar background color */
+    color: #fff; /* Icon color */
+    border: none;
+    cursor: pointer;
+    padding: 10px; /* Increased padding */
+    font-size: 24px; /* Increased font size */
+    border-radius: 50%; /* Rounded shape */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Light mode button */
+#lightModeToggle {
+    background-color: #5771db; /* Match navbar background color */
+    color: #fff; /* Icon color */
+    border: none;
+    cursor: pointer;
+    padding: 10px; /* Increased padding */
+    font-size: 24px; /* Increased font size */
+    border-radius: 50%; /* Rounded shape */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Dark mode button hover */
+#darkModeToggle:hover {
+    background-color: #3a4fbc; /* Darker background color on hover */
+}
+
+/* Light mode button hover */
+#lightModeToggle:hover {
+    background-color: #3a4fbc; /* Darker background color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  .achievement {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .achievement h3 {
+    color: #333;
+  }
+  .achievement p {
+    color: #666;
+  }
+  .achievement img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+
+.department-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.department-container h1, .department-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.department-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.department-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.department-container th, .department-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.department-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.department-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
     </style>
+    <style>
+
+</style>
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-************************************" crossorigin="anonymous" />
 
 <body>
+    
     <header>
-        <nav>
-            <div class="left">Ankit's-portfolio</div>
-            <div class="right"></div>
-            <ul>
-                <li> <a href="/">Home</a></li>
-                <li> <a href="/">About</a></li>
-                <li> <a href="/">Services</a></li>
-                <li> <a href="/">Projects</a></li>
-                <li> <a href="/">Contact Me</a></li>
-            </ul>
+    <div class="header-banner">
+      <!-- Logo and tagline here -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_of_India_logo.svg/2560px-Government_of_India_logo.svg.png" alt="Government Logo">
+      <h1>Agriculture Development and Dairy Fishing</h1>
+    </div>
+   
+      <nav>
+        <ul>
+     <li>      <a href="#" onclick="scrollToA()">About Us</a></li>
 
-        </nav>
-    </header>
-    <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                Hi, My Name is<span class="purple"> Ankit</span>
-                <div>and I am a passonate</div>
-                <span id="element"></span>
           
-                <div class="buttons">
-                    
-                    <button class="btn" onclick="window.location.href='resume.jpg'">Download Resume</button>
-                    
-                    
-                    <a href="https://github.com/Ak47ankii" target="_blank">
-                        <button class="btn">Visit GitHub</button>
-                    </a>
-                </div>
-                
-
-
-            </div>
-
-            <div class="rightSection">
-                <img src="an.jpg" alt="">
-
-
-            </div>
-
-
-        </section>
-        <hr>
-        <section class="secondSection">
-            <span class="text-gray"></span> What I have done so far</span>
-            <h1> Work Experience</h1>
-            <div class="box">
-          <div class="vertical">
-          <img class="image-top" src="py.jpeg" alt="Image Alt Text">
           
-         
-          <div class="vertical-title">
-           Projects in python
-          </div>
-        <div class="vertical-desc">
-          
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
-           
+            <li><a href="#">Programs & Schemes</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">News & Events</a></li>
+           <li><a href="#" onclick="scrollToContact()">Contact Us</a></li>
 
-          </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="ex.jpeg" alt="Image Alt Text">
-            
-           
-            <div class="vertical-title">
-             Ms Excel
-            </div>
-          <div class="vertical-desc">
-            
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
-             
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#" onclick="openLoginModal()">Login</a></li>
+            <li><a href="#" onclick="openSignupModal()">Signup</a></li>
+        </ul>
+    </nav>
+
+
+
   
-            </div>
-            </div>
-            <div class="vertical">
-                <img class="image-top" src="c.jpeg" alt="Image Alt Text">
-                
-               
-                <div class="vertical-title">
-                 C & C++
-                </div>
-              <div class="vertical-desc">
-                
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
-                 
-      
-                </div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="ht.jpeg" alt="Image Alt Text">
-                    
-                   
-                    <div class="vertical-title">
-                     HTML Developer 
-                    </div>
-                  <div class="vertical-desc">
-                    
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
-                     
-          
-                    </div>
-                    </div>
-                    <div class="vertical">
-                        <img class="image-top" src="pw.jpeg" alt="Image Alt Text">
-                        
-                       
-                        <div class="vertical-title">
-            MS Powerpoint
-                        </div>
-                      <div class="vertical-desc">
-                        
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
-                         
-              
-                        
-                        </div>
-                        </div>
-                        <div class="vertical">
-                            <img class="image-top" src="ai.jpeg" alt="Image Alt Text">
-                            
-                           
-                            <div class="vertical-title">
-                             Prompt Writting
-                            </div>
-                          <div class="vertical-desc">
-                            
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, totam quis in fugit repellendus optio inventore laboriosam aliquid rerum ratione dolore sequi aspernatur. Explicabo deserunt magni vero ipsum, sequi optio.
-                             
-                  
-                            </div>
-                            </div>
-          
-         
-          
-         
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div>
-        <div class="footer">
-        <div class="first">
-        <h3>Ankit Developer Portfolio</h3>
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('loginModal').style.display='none'">&times;</span>
+            <h2>Login Form</h2>
+            <form id="loginForm" action="/login" method="post">
+                <input placeholder="Name" name="name" type="text">
+                <br>
+                <input placeholder="Password" name="password" type="password">
+                <br>
+                <button type="submit">Submit</button>
+                <h3>Don't have an account?</h3>
+                <button class="signup-button" onclick="openSignupForm()">Signup</button>
+            </form>
         </div>
-        <div class="second">
-            <ul> 
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Services</li>
-            </ul>
-        </div>
-        </div>
-        <div class="footer-rights">
-         Copyright &#169;   www.ak47ankitsportfolio.com | All rights reserverd
+    </div>
 
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('signupModal').style.display='none'">&times;</span>
+            <h2>Signup Form</h2>
+            <form id="signupForm" action="/signup" method="post">
+                <input placeholder="Name" name="name" type="text">
+                <br>
+                <input placeholder="Password" name="password" type="password">
+                <br>
+                <input placeholder="Email" name="email" type="email">
+                <br>
+                <input placeholder="Phone Number" name="phone" type="tel">
+                <br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <button class="sub" type="submit">Submit</button>
+            </form>
         </div>
-        <div class="fourth">
+    </div>
+
+    
+
+
+    <div class="department-container">
+    <div class="department-info">
+        <h1>About the Department</h1>
+        <p>
+            The Department of Fisheries is one of the two Departments under the Ministry of Fisheries, Animal Husbandry & Dairying. It came into existence with effect from 05.02.2019 through carving out Fishery Division from the erstwhile Department of Animal Husbandry, Dairying and Fisheries vide Cabinet Secretariat’s Notification F.No.1/21/21/2018-Cab dated 05.02.2019.
+
+            The Department is under the overall charge of Shri Parshottam Rupala, Hon’ble Minister for Fisheries, Animal Husbandry & Dairying assisted by two Ministers of State for Fisheries, Animal Husbandry & Dairying namely Dr. Sanjiv Kumar Balyan and Dr. L Murugan. The administrative Head of the Department is Secretary Fisheries. Secretary Fisheries is assisted by two Joint Secretaries.
+
+            The Department is responsible for matters relating to formulation of policy and schemes relating to Development of Inland , Marine and Coastal Fisheries and Fishery Institutes namely Fishery Survey of India Mumbai, Central Institute of Fisheries Nautical and Engineering Training (CIFNET), Kerala, Central Institute of Coastal Engineering For Fishery (CICEF), Bangalore, National Institute of Fisheries Post Harvest Technology and Training,(NIFPHATT), Kochi, National Fisheries Development Board (NFDB), Hyderabad, Coastal Aquaculture Authority, Chennai.
+
+            The list of subjects allocated to Department of Fisheries is as under:
+        </p>
+    </div>
+
+    <div class="minister-office">
+        <h2>Office of Minister of Fisheries, Animal Husbandry & Dairying</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Phone No.</th>
+                    <th>EPABX</th>
+                    <th>FAX No.</th>
+                    <th>Room No</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Shri Parshottam Rupala</td>
+                    <td>Hon'ble Minister</td>
+                    <td>23380780/1/2</td>
+                    <td></td>
+                    <td>23380783</td>
+                    <td>234 KB</td>
+                    <td>rupalaoffice[at]gmail[dot]com</td>
+                </tr>
+                <!-- Insert other rows here -->
+                <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Phone No.</th>
+                    <th>EPABX</th>
+                    <th>FAX No.</th>
+                    <th>Room No</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Shri Parshottam Rupala</td>
+                    <td>Hon'ble Minister</td>
+                    <td>23380780/1/2</td>
+                    <td></td>
+                    <td>23380783</td>
+                    <td>234 KB</td>
+                    <td>rupalaoffice[at]gmail[dot]com</td>
+                </tr>
+                <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Phone No.</th>
+                    <th>EPABX</th>
+                    <th>FAX No.</th>
+                    <th>Room No</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Shri Parshottam Rupala</td>
+                    <td>Hon'ble Minister</td>
+                    <td>23380780/1/2</td>
+                    <td></td>
+                    <td>23380783</td>
+                    <td>234 KB</td>
+                    <td>rupalaoffice[at]gmail[dot]com</td>
+                </tr>
+                <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Phone No.</th>
+                    <th>EPABX</th>
+                    <th>FAX No.</th>
+                    <th>Room No</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Shri Parshottam Rupala</td>
+                    <td>Hon'ble Minister</td>
+                    <td>23380780/1/2</td>
+                    <td></td>
+                    <td>23380783</td>
+                    <td>234 KB</td>
+                    <td>rupalaoffice[at]gmail[dot]com</td>
+                </tr>
+                <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Phone No.</th>
+                    <th>EPABX</th>
+                    <th>FAX No.</th>
+                    <th>Room No</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Shri Parshottam Rupala</td>
+                    <td>Hon'ble Minister</td>
+                    <td>23380780/1/2</td>
+                    <td></td>
+                    <td>23380783</td>
+                    <td>234 KB</td>
+                    <td>rupalaoffice[at]gmail[dot]com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</section>
+    <div class="container">
+  <h2>Program and Schemes</h2>
+  
+  <div class="achievement">
+    <h3>Year 2024</h3>
+    <img src="https://dof.gov.in/sites/default/files/inline-images/01_Nutritional_Support.jpg" alt="Achievement Image">
+    <p>Date: January 1, 2023</p>
+    <p>The tranquil waters of a pristine lake glisten under the warm glow of the setting sun. A small fishing boat bobs gently, its lone occupant casting a line with practiced expertise. Surrounding the scene, dense forests and rugged mountains create a breathtaking panorama, offering a glimpse into the natural beauty that provides sustenance for generations through the time-honored practice of fishing.</p>
+    <p>The tranquil waters of a pristine lake glisten under the warm glow of the setting sun. A small fishing boat bobs gently, its lone occupant casting a line with practiced expertise. Surrounding the scene, dense forests and rugged mountains create a breathtaking panorama, offering a glimpse into the natural beauty that provides sustenance for generations through the time-honored practice of fishing..</p>
+  </div>
+  
+  <div class="achievement">
+    <h3>Year 2022</h3>
+    <img src="https://dof.gov.in/sites/default/files/inline-images/08_RAS.jpg" alt="Achievement Image">
+    <p>Date: January 1, 2022</p>
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec odio eu massa ultrices commodo.</p>
+    <p>Statistics: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="achievement">
+    <h3>Year 2023</h3>
+    <img src="https://i.ytimg.com/vi/p_rtdPtdmAU/maxresdefault.jpg" alt="Achievement Image">
+    <p>Date: January 1, 2024</p>
+    <p>Description: </p>
+    <p>Statistics: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  
+  <div class="achievement">
+    <h3>Year 2023</h3>
+    <img src="https://i.natgeofe.com/n/748f1c42-0d8b-498e-85fd-88151c6f863b/01_organic_farming_i8860_20181003_11260_16x9.jpg" alt="Achievement Image">
+    <p>Date: January 1, 2023</p>
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec odio eu massa ultrices commodo.</p>
+    <p>Statistics: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  
+  
+  <
+  </div>
+</div>
+
+    <!-- Contact Form -->
+   
+    
+
+
+<section class="contact" id="contact">
+   
+
+
+    <h2 class="heading">Contact <span>Us</span></h2>
+
+    <form action="" method="post"> <!-- Update action to POST to /contact -->
+        <div class="input-box">
+            <input type="text" name="fullName" placeholder="Full Name"> <!-- Add name attribute -->
+            <input type="email" name="email" placeholder="Email Address"> <!-- Add name attribute -->
         </div>
+        <div class="input-box">
+            <input type="tel" name="mobileNumber" placeholder="Mobile Number"> <!-- Add name attribute -->
+            <input type="text" name="subject" placeholder="Email Subject"> <!-- Add name attribute -->
         </div>
-        </div>
-    </footer>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Give Feedback"></textarea> <!-- Add name attribute -->
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+
+    </div>
+</section>
+
+  <!-- Footer Section -->
+   <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <h4>About Us</h4>
+        <p>we are young web developer Ankit and Ranjit trying something new and fresh.</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+    <h4>Follow Us</h4>
+    <ul class="list-unstyled">
+        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+    </ul>
+</div>
+ <div class="col-lg-3 col-md-6 col-sm-6">
+                <h4>Contact Us</h4>
+                <ul class="list-unstyled" style="margin-top: 10px;"> <!-- Added margin-top -->
+                    <li><i class="fas fa-phone"></i> (+91) 9956651188</li>
+                    <li><i class="fas fa-phone"></i> (+91) 9608185079</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@example.com">ak47ankii@gmail.com</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:support@example.com">ranjit130304@gmail.com</a></li>
+                </ul>
+            </div>
+</footer>
+
+
+
+   
     <script>
-        var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Graphics Designer','Web Designer'],
-          typeSpeed: 50,
+        window.onclick = function(event) {
+            var modals = document.getElementsByClassName('modal');
+            for (var i = 0; i < modals.length; i++) {
+                if (event.target == modals[i]) {
+                    modals[i].style.display = "none";
+                }
+            }
+        }
+        window.onload = function() {
+            var modals = document.getElementsByClassName('modal');
+            for (var i = 0; i < modals.length; i++) {
+                modals[i].style.display = "none";
+            }
+        }
+        function toggleContactForm() {
+            var contactForm = document.getElementById('contactForm');
+            contactForm.classList.toggle('active');
+        }
+        // Event listener for "Contact Us" link in navbar
+        var contactLink = document.querySelector('a[href="#"]');
+        contactLink.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default link behavior
+            toggleContactForm(); // Toggle visibility of contact form
         });
-      </script>
 
+
+
+
+const photos = document.querySelectorAll('.photo-grid-item img');
+  let currentIndex = 0;
+
+  function showNextSlide() {
+    photos[currentIndex].style.display = 'none';
+    currentIndex = (currentIndex + 1) % photos.length;
+    photos[currentIndex].style.display = 'block';
+  }
+
+  setInterval(showNextSlide, 2000); // Change slide every 2 seconds
+        
+function scrollToHome() {
+    var homeSection = document.getElementById('home');
+    homeSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+
+// Function to toggle between dark mode and light mode
+function toggleDarkMode() {
+    // Toggle the dark-mode class on the body element
+    document.body.classList.add('dark-mode');
+    document.body.classList.remove('light-mode');
+}
+
+function toggleLightMode() {
+    // Toggle the light-mode class on the body element
+    document.body.classList.add('light-mode');
+    document.body.classList.remove('dark-mode');
+}
+
+function openLoginModal() {
+            var loginModal = document.getElementById('loginModal');
+            loginModal.style.display = 'block';
+        }
+
+        // Function to open signup modal
+        function openSignupModal() {
+            var signupModal = document.getElementById('signupModal');
+            signupModal.style.display = 'block';
+        }
+
+        // Function to close modals
+        function closeModal(modalId) {
+            var modal = document.getElementById(modalId);
+            modal.style.display = 'none';
+        }
+
+        // Function to handle login form submission
+        function submitLoginForm() {
+            // Get form data and handle submission
+            // Example:
+            var loginForm = document.getElementById('loginForm');
+            var formData = new FormData(loginForm);
+            // Send formData via AJAX or perform form submission as needed
+        }
+
+        // Function to handle signup form submission
+        function submitSignupForm() {
+            // Get form data and handle submission
+            // Example:
+            var signupForm = document.getElementById('signupForm');
+            var formData = new FormData(signupForm);
+            // Send formData via AJAX or perform form submission as needed
+        }
+
+
+// Function to toggle the visibility of the contact form
+function toggleContactForm() {
+    var contactForm = document.getElementById('contact'); // Assuming the contact form has an ID of 'contact'
+    contactForm.classList.toggle('active'); // Toggle the 'active' class to show/hide the contact form
+}
+
+// Event listener for "Contact Us" link in navbar
+var contactLink = document.querySelector('nav ul li a[href="#"]');
+contactLink.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    toggleContactForm(); // Toggle visibility of contact form
+});
+
+
+    // Function to scroll to the contact section
+    function scrollToContact() {
+        var contactSection = document.getElementById('contact');
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+
+
+
+    </script>
 </body>
-
 </html>
